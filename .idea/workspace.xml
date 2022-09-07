@@ -1,150 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="950a9ee1-deaf-4a0b-a56c-8c0ca8a1cbdc" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/0002_alter_user_date_joined.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/0003_user_agency_user_is_agency_admin_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0002_remove_ticket_trip_remove_trip_seat_remove_trip_user_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0003_rename_origin_trip_source.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0004_vehicle_vin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0005_booking_date.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0006_remove_agency_logo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0007_alter_seat_seat_num.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0008_remove_booking_seat_booking_seats_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0009_wallet_agency_wallet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0010_transaction_note.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0011_remove_ticket_booking_alter_ticket_ticket_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0012_alter_wallet_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/create_update_agency.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/create_update_candidate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/create_update_cashout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/create_update_category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/create_update_election.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/create_update_position.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/create_update_seat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/create_update_trip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/create_update_vehicle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/create_update_voter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/forms/form_agency.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/forms/form_candidate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/forms/form_cashout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/forms/form_category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/forms/form_election.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/forms/form_position.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/forms/form_seat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/forms/form_trip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/forms/form_vehicle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/forms/form_voter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/forms/form_voter_register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/lists/agencies.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/lists/bookings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/lists/categories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/lists/seats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/lists/tickets.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/lists/transactions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/lists/trips.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/lists/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/lists/vehicles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/lists/wallets.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/backend/verification.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/agency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/seat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/ticket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/transaction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/trip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/vehicle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/wallets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils/util_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/cropper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/cropper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/desktop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/desktop.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/desktop_nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/desktop_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/general.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/mobile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/rating.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/rating.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/csv/voter_register.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/illustrations/cant-vote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/illustrations/how_to_vote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/illustrations/jury-voting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/illustrations/jury-voting.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/illustrations/thumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/illustrations/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/illustrations/vote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logos/logo_bg_blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logos/logo_bg_white.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logos/logo_icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/user_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/vendor.js" afterDir="false" />
-    </list>
+    <list default="true" id="950a9ee1-deaf-4a0b-a56c-8c0ca8a1cbdc" name="Default Changelist" comment="Initial Commit" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="174" column="20" lean-forward="true" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
+            <state relative-caret-position="1127">
+              <caret line="168" column="38" lean-forward="true" selection-start-line="168" selection-start-column="38" selection-end-line="168" selection-end-column="38" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -421,7 +278,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15384616" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15384616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
@@ -434,7 +291,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3310153" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3310153" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -575,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="174" column="20" lean-forward="true" selection-start-line="174" selection-start-column="20" selection-end-line="174" selection-end-column="20" />
+        <state relative-caret-position="1127">
+          <caret line="168" column="38" lean-forward="true" selection-start-line="168" selection-start-column="38" selection-end-line="168" selection-end-column="38" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
